@@ -8,6 +8,10 @@ package com.tht.Algorithms.sort;
  * 需要N-1 趟排序    I
  */
 public class bubbleSort {
+    /**
+     * 优化，可以在内循环加一个flg，如果遍历一遍都没有要换位的，那么就表示已经是顺序的了
+     * @param a
+     */
     public void bubbleSort(int[] a){
        for(int i=0;i<a.length-1;i++){
            System.out.println("_______________");

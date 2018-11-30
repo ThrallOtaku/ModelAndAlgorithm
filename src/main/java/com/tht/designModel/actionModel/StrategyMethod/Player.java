@@ -1,8 +1,8 @@
 package com.tht.designModel.actionModel.StrategyMethod;
 
-/**
+ /**
  * Created by thrall on 2018/11/27.
- * 策略模式：解开了不同会员等级不同的折扣问题
+ * 策略模式：解开了不同会员等级设置不同的折扣问题，每个会员等级一个对象，实现计算价格接口
  * Strategy与Template Method模式之间的区别,也是在"变化的是什么"这个问题上了
  *  Strategy
  */
