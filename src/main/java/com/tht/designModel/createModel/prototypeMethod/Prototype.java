@@ -7,7 +7,6 @@ package com.tht.designModel.createModel.prototypeMethod;
  * 深拷贝和浅拷贝的区别？   基本类型数据，他是会给你重新复制一份新的，但是引用类型的，
  他就不会重新复制份新的,如果是浅拷贝，原对象和引用对象会共享一个引用类型的数据。
  * Object对象中有clone()接口，不实现Cloneable会报CloneNotSupportedException
- *
  * 比如我有一台车，复制我得到我1，我1跟我共用一台车则是浅拷贝
  * 我1单独有一辆车(车1)，那么就是深拷贝。
  */

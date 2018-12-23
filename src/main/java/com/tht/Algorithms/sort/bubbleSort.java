@@ -10,6 +10,8 @@ package com.tht.Algorithms.sort;
 public class bubbleSort {
     /**
      * 优化，可以在内循环加一个flg，如果遍历一遍都没有要换位的，那么就表示已经是顺序的了
+     * 冒泡排序是一种稳定的排序方法。
+     * 冒泡排序平均时间复杂度为O(n2)
      * @param a
      */
     public void bubbleSort(int[] a){

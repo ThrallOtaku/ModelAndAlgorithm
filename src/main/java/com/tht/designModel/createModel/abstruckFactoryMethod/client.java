@@ -7,8 +7,10 @@ package com.tht.designModel.createModel.abstruckFactoryMethod;
  * 只需要同时新增一个工厂类，客户端就可以轻松调用新产品的代码。
  *抽象工厂的灵活性就体现在这里，无需改动原有的代码，毕竟对于客户端来说，
  *静态工厂模式在不改动StaticFactory类的代码时无法新增产品，如果采用了抽象工厂模式，就可以轻松的新增拓展类。
+ * 就是A 工厂生产A
+ * B工厂生产B  ，C工厂生产C  2018-12-13
  */
-public class AbstractFatory {
+public class client {
 
     public void clientCode(String name){
         food x= new FactoryForA().get();

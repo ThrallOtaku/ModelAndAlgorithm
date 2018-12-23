@@ -4,6 +4,7 @@ import com.tht.designModel.createModel.singletonMethod.Singleton;
 
 /**
  * Created by thrall on 2018/11/23.
+ * 一个工厂生产A、B、C
  */
 public class client {
     public void get(String name){
@@ -20,6 +21,5 @@ public class client {
          * singleton 在外部没法new,所以是singleton
          */
          Singleton.getInstance();
-
     }
 }
