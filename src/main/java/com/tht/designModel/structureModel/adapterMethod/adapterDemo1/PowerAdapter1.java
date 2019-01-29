@@ -2,6 +2,7 @@ package com.tht.designModel.structureModel.adapterMethod.adapterDemo1;
 
 /**
  * Created by thrall on 2018/11/26.
+ * 适配器模式：继承旧类实现新接口
  */
 public class PowerAdapter1 extends AC220 implements DC5 {
 
@@ -11,7 +12,7 @@ public class PowerAdapter1 extends AC220 implements DC5 {
     }
 
     public static void main(String[] args) {
-        DC5 dc5 = new PowerAdapter1();
-        dc5.output5V();
+        PowerAdapter1 dc5 = new PowerAdapter1();
+        System.out.println(dc5.output5V());
     }
 }
